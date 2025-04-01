@@ -2,6 +2,8 @@
 
 HTTP API with 4 endpoints that handle JSON payloads for encryption, decryption, signing, and verification operations.
 
+I used uv to manage dependencies and Django-ninja to build the API.
+
 # Setting up virtual environment and app
 
 After clonning the repository, navigate to the root folder. Where the `pyproject.toml` and `uv.lock` files should be located.
