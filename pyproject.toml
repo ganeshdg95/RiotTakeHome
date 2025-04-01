@@ -1,0 +1,11 @@
+[project]
+name = "riot-exercise"
+version = "0.1.0"
+description = "HTTP API with 4 endpoints that handle JSON payloads for encryption, decryption, signing, and verification operations."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.1.7",
+    "django-ninja>=1.4.0",
+    "typing>=3.10.0.0",
+]
